@@ -1,0 +1,15 @@
+{
+  "name": "conftest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "copyfiles -u 1 src/*.js src/*.html dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1"
+  }
+}
